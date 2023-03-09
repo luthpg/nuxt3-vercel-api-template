@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Logo 1`] = `
+<nuxtlink
+  href="https://google.com"
+>
+  <v-toolbar-title>
+     amplify-nuxt3-sample 
+  </v-toolbar-title>
+</nuxtlink>
+`;
