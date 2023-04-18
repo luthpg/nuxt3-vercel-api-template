@@ -1,5 +1,13 @@
 {
+  "name": "nuxt3-vercel-api-template",
+  "description": "Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.",
   "private": true,
+  "version": "0.1.0",
+  "keywords": [
+    "nuxt"
+  ],
+  "author": "luthpg",
+  "license": "ISC",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -10,11 +18,13 @@
     "test": "vitest --run",
     "test:coverage": "vitest run --coverage"
   },
+  "dependencies": {},
   "devDependencies": {
     "@mdi/js": "^7.1.96",
     "@nuxt/eslint-config": "^0.1.1",
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "@vue/test-utils": "^2.3.1",
+    "esbuild": "^0.17.17",
     "eslint": "^8.35.0",
     "jsdom": "^21.1.0",
     "nuxt": "^3.2.3",
@@ -22,5 +32,13 @@
     "vite-plugin-vuetify": "^1.0.2",
     "vitest": "^0.29.2",
     "vuetify": "^3.1.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luthpg/nuxt3-vercel-api-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luthpg/nuxt3-vercel-api-template/issues"
+  },
+  "homepage": "https://github.com/luthpg/nuxt3-vercel-api-template#readme"
 }
