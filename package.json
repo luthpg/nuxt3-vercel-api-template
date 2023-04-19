@@ -10,7 +10,6 @@
   "license": "ISC",
   "scripts": {
     "build": "nuxt build",
-    "build:server": "esbuild api/src/index.ts --platform=node --bundle --minify --outfile=api/index.js",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
