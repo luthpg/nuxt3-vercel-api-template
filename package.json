@@ -18,7 +18,9 @@
     "test": "vitest --run",
     "test:coverage": "vitest run --coverage"
   },
-  "dependencies": {},
+  "dependencies": {
+    "nuxt-basic-authentication-module": "^0.2.1"
+  },
   "devDependencies": {
     "@mdi/js": "^7.1.96",
     "@nuxt/eslint-config": "^0.1.1",
