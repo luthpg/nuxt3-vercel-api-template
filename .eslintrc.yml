@@ -1,4 +1,15 @@
-root: 
-  true
-extends: 
-  - "@nuxtjs/eslint-config-typescript"
+root: true
+extends:
+ - "plugin:vue/vue3-recommended"
+ - "eslint:recommended"
+ - "@nuxtjs/eslint-config-typescript"
+env: 
+ browser: true
+ es2021: true
+parser: "vue-eslint-parser",
+parserOptions: 
+ parser: "@typescript-eslint/parser"
+ sourceType: "module"
+plugins: 
+ - "vue"
+ - "@typescript-eslint"
