@@ -1,10 +1,10 @@
 export default defineEventHandler((event) => {
-  const id = parseInt(event.context.params?.id as string) as number;
+  const id = parseInt(event.context.params?.id as string) as number
   if (!Number.isInteger(id)) {
     throw createError({
       statusCode: 400,
-      statusMessage: "ID should be an integer",
-    });
+      statusMessage: 'ID should be an integer'
+    })
   }
-  return "All good";
-});
+  return 'All good'
+})

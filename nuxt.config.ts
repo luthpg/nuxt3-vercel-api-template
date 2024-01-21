@@ -1,25 +1,25 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import { defineNuxtConfig } from 'nuxt/config';
-import vuetify from 'vite-plugin-vuetify';
-import BasicAuth from 'nuxt-basic-authentication-module';
+import { defineNuxtConfig } from 'nuxt/config'
+import vuetify from 'vite-plugin-vuetify'
+import BasicAuth from 'nuxt-basic-authentication-module'
 
 export default defineNuxtConfig({
   build: {
-    transpile: ['vuetify'],
+    transpile: ['vuetify']
   },
   modules: [[BasicAuth, { enabled: true }]],
   hooks: {
     'vite:extendConfig': (config) => {
-      config.plugins!.push(vuetify());
-    },
+      config.plugins!.push(vuetify())
+    }
   },
   vite: {
     ssr: {
-      noExternal: ['vuetify'],
+      noExternal: ['vuetify']
     },
     define: {
-      'process.env.DEBUG': false,
-    },
+      'process.env.DEBUG': false
+    }
   },
   css: ['@/assets/main.scss', 'vue-toast-notification/dist/theme-default.css'],
   runtimeConfig: {
@@ -29,7 +29,7 @@ export default defineNuxtConfig({
       ],
       pairs: {
         // admin: process.env.BASIC_ADMIN_PIN as string, // Passwords
-      },
-    },
-  },
-});
+      }
+    }
+  }
+})

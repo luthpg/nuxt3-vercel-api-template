@@ -13,8 +13,8 @@ export const mainTheme: ThemeDefinition = {
     error: '#ef4444',
     info: '#3b82f6',
     success: '#22c55e',
-    warning: '#f59e0b',
-  },
+    warning: '#f59e0b'
+  }
 }
 
 // Dark モードのテーマ名
@@ -30,6 +30,6 @@ export const mainDarkTheme: ThemeDefinition = {
     error: '#ef4444',
     info: '#3b82f6',
     success: '#22c55e',
-    warning: '#f59e0b',
-  },
+    warning: '#f59e0b'
+  }
 }

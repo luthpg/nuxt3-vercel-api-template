@@ -1,1 +1,1 @@
-export default defineEventHandler(() => `Default test handler`);
+export default defineEventHandler(() => 'Default test handler')
